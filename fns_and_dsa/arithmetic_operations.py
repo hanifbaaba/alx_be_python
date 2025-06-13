@@ -1,4 +1,6 @@
 def perform_operation(num1, num2, operation):
+    num1 = 20
+    num2 = 30
     if operation == 'add':
      return num1 + num2
     elif operation == 'subtract':
