@@ -1,6 +1,6 @@
 def perform_operation(num1, num2, operation):
-    num1 = 20
-    num2 = 30
+    # num1 = 20
+    # num2 = 30
     if operation == 'add':
      return num1 + num2
     elif operation == 'subtract':
@@ -10,6 +10,7 @@ def perform_operation(num1, num2, operation):
     elif operation == 'divide':
      if num2 == 0:
             return "Error: Division by zero"
+     return num1 / num2
     else:
         return "Error: Invalid operation"
 
